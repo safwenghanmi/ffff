@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "ubuntu" sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+a{ color:white;
+text-decoration: none;}
+body{
+    background: linear-gradient(to right, rgb(45, 45, 241),black);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ul{list-style: none;
+display: flex;
+justify-content: space-around;
+margin: 20px;}
+img{width: 40%;
+display: flex;
+justify-content:center;}
