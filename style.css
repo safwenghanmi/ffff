@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
-    font-family: "ubuntu" sans-serif;
+    
     padding: 0;
     margin: 0;
     
@@ -8,16 +8,32 @@
 a{ color:white;
 text-decoration: none;}
 body{
+    font-family: 'Roboto';font-size: 22px;
     background: linear-gradient(to right, rgb(45, 45, 241),black);
     color: white;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 ul{list-style: none;
 display: flex;
 justify-content: space-around;
 margin: 20px;}
-img{width: 40%;
-display: flex;
-justify-content:center;
-align-items: center;}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white ;
+}
+
+.photo{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
